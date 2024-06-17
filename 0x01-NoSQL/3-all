@@ -1,1 +1,2 @@
-db.school.find().forEach(printjson)
+// All docs
+db.school.find()
