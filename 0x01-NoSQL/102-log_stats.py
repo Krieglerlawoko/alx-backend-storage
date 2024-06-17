@@ -34,7 +34,3 @@ def log_stats():
             break
         print(f"\t{s.get('_id')}: {s.get('count')}")
         i += 1
-
-
-if __name__ == "__main__":
-    log_stats()
